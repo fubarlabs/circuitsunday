@@ -5,13 +5,13 @@ Building upon using breadboards, communicating to each other with serial we now 
 Then we will review  digitalWrite(), digitalRead() and finally getting to analogWrite(), and analogRead()
 
 ![GitHub Logo](/week3/FubarinoMiniPotLED.png)
-Format: ![Alt Text](url)
+Format: ![Alt FubarinoMiniPotLED](https://github.com/fubarlabs/circuitsunday/blob/master/week3)
 ![GitHub Logo](/week3/FubarinoSDPotLED.png)
-Format: ![Alt Text](url)
+Format: ![Alt FubarinoSDPotLED](https://github.com/fubarlabs/circuitsunday/blob/master/week3)
 ![GitHub Logo](/week3/FubarinoMiniPotentiometer.png	)
-Format: ![Alt Text](url)
+Format: ![Alt FubarinoMiniPotentiometer](https://github.com/fubarlabs/circuitsunday/blob/master/week3)
 ![GitHub Logo](/week3/FubarinoSDPotentiometer.png)
-Format: ![Alt Text](url)
+Format: ![Alt FubarinoSDPotentiometer](https://github.com/fubarlabs/circuitsunday/blob/master/week3)
 
 		
 
