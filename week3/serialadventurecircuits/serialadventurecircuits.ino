@@ -35,45 +35,45 @@ void setup() {
         break;
       }
     }
-    Serial.println("start");
-
-
   }
+  Serial.println("start");
 
-  void loop() {
-    // put your main code here, to run repeatedly:
-    if (Serial.available() > 0) {
-      char ch = Serial.read();
-      Serial.print(ch);
-      if (ch == 'n') {
-        walkNorth();
-      }
-      if (ch == 'h') {
-        printHealth();
-      }
-      if (ch == 'l') {
-        onBoardLedStatus = !onBoardLedStatus;
-        digitalWrite(PIN_LED1, onBoardLedStatus);
-      }
-      if (ch == 'p') {
-        analogValue = analogRead(A9);
-        Serial.print("Pot Val: ");
-        Serial.println(analogValue);
 
-      }
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  if (Serial.available() > 0) {
+    char ch = Serial.read();
+    Serial.print(ch);
+    if (ch == 'n') {
+      walkNorth();
+    }
+    if (ch == 'h') {
+      printHealth();
+    }
+    if (ch == 'l') {
+      onBoardLedStatus = !onBoardLedStatus;
+      digitalWrite(PIN_LED1, onBoardLedStatus);
+    }
+    if (ch == 'p') {
+      analogValue = analogRead(A9);
+      Serial.print("Pot Val: ");
+      Serial.println(analogValue);
     }
     if (ch == '?') {
       printHelp();
     }
   }
 
-  //Turn this into a function
-  if (digitalRead(PIN_BTN1) == 1)
-  {
-    digitalWrite(PIN_LED1, HIGH);
-  }
-  else
-  {
-    digitalWrite(PIN_LED1, LOW);
-  }
+
+//Turn this into a function
+if (digitalRead(PIN_BTN1) == 1)
+{
+  digitalWrite(PIN_LED1, HIGH);
+}
+else
+{
+  digitalWrite(PIN_LED1, LOW);
+}
 }
