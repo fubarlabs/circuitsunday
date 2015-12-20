@@ -5,7 +5,7 @@
 The goal for this group is to learn to use Arduino libraries. Configure common led strips. Then create custom animations for the holidays or incorporate into your own projects.
 
 ##Data Sheet
-[Dotstar/Apa102 Data Sheet](/week4/APA104.pdf)
+[Dotstar/Apa102 Data Sheet](/week4/APA102.pdf)
 
 ##Wiring Diagrams
 
