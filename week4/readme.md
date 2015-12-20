@@ -8,10 +8,10 @@ The goal for this group is to learn to use Arduino libraries. Configure common l
 
 * Fuabrino Mini
 ![GitHub Logo](/week4/FubarinoMiniDotStarWiring_bb.png)
-Format: ![Alt FubarinoMiniDotStarWiring](https://github.com/fubarlabs/circuitsunday/blob/master/week4/FubarinoMiniDotStarWiring_bb.png)
+
 * Fubarino SD
 ![GitHub Logo](/week4/FubarinoSDDotStarWiring_bb.png)
-Format: ![Alt FubarinoMiniDotStarWiring](https://github.com/fubarlabs/circuitsunday/blob/master/week4/FubarinoSDDotStarWiring_bb.png)
+
 
 ###Code Review
 * Adafruit Dotstar library https://learn.adafruit.com/adafruit-dotstar-leds/overview
