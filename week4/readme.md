@@ -4,7 +4,10 @@
 
 The goal for this group is to learn to use Arduino libraries. Configure common led strips. Then create custom animations for the holidays or incorporate into your own projects.
 
-###Wiring Diagrams
+##Data Sheet
+[Dotstar/Apa102 Data Sheet](/week4/apa104.pdf)
+
+##Wiring Diagrams
 
 * Fuabrino Mini
 ![GitHub Logo](/week4/FubarinoMiniDotStarWiring_bb.png)
