@@ -17,24 +17,34 @@
 #define DI    4
 #define CI   9
 
+int count = 0;
+
 void setup() {
   Serial.begin(9600);
   pinMode(DI, OUTPUT);
   pinMode(CI, OUTPUT);
   start();
-
+  Serial.println("Start entering frames and color codes");
 }
 
 void loop() {
 
   if (Serial.available() > 0) {
+    count++;
     char ch = Serial.read();
-    Serial.print(ch);
+    if ( count % 8 == 0) {
+      Serial.println(ch);
+    } else {
+      Serial.print(ch);
+    }
     if ( ch ==  '0' ) {
       shiftOut(DI, CI, MSBFIRST, 0x00);
     }
     if ( ch ==  '1' ) {
       shiftOut(DI, CI, MSBFIRST, 0xff);
+    }
+    if(ch == 'h' || ch == '?') {
+              printHelp();
     }
   }
 }
@@ -55,6 +65,8 @@ void start() {
     }
   }
   Serial.println("start");
+  Serial.println();
+
 }
 
 void printHelp() {
@@ -62,6 +74,11 @@ void printHelp() {
   Serial.println("Press 0 for 0 byte");
   Serial.println("Press 1 for 1 byte");
   Serial.println("Press enter/return to send pattern");
+  Serial.println("Start Frame: 0000\nColor: \nred:   1001\ngreen: 1010\nblue:  1100\nOff: 1000\nSet first led red:\n00001001");
+  Serial.println("Each additional color added lights the next led.");
+  Serial.println("00001111100111111001");
+  Serial.println();
+
 }
 
 
