@@ -4,7 +4,7 @@
 #define CI   9
 
 void setup() {
-  Serial.being(9600);
+  Serial.begin(9600);
   pinMode(DI, OUTPUT);
   pinMode(CI, OUTPUT);
 
