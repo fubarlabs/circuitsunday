@@ -1,8 +1,8 @@
 /*
- *  Manual mode Dotstar
- *  Inpired by Julian Illet https://www.youtube.com/watch?v=UYvC-hukz-0
- * 
- */
+    Manual mode Dotstar
+    Inpired by Julian Illet https://www.youtube.com/watch?v=UYvC-hukz-0
+
+*/
 
 #define DATAPIN    4
 #define CLOCKPIN   9
@@ -21,10 +21,10 @@ void loop() {
   if (Serial.available() > 0) {
     char ch = Serial.read();
     Serial.print(ch);
-    if (int ch == = '0' ) {
+    if ( ch ==  '0' ) {
       shiftOut(DI, CI, MSBFIRST, 0x00);
     }
-    if (int ch == = '1' ) {
+    if ( ch ==  '1' ) {
       shiftOut(DI, CI, MSBFIRST, 0xff);
     }
   }
