@@ -1,3 +1,9 @@
+/*
+ *  Manual mode Dotstar
+ *  Inpired by Julian Illet https://www.youtube.com/watch?v=UYvC-hukz-0
+ * 
+ */
+
 #define DATAPIN    4
 #define CLOCKPIN   9
 #define DI    4
