@@ -2,6 +2,14 @@
     Manual mode Dotstar
     Inpired by Julian Illet https://www.youtube.com/watch?v=UYvC-hukz-0
 
+    Start Frame: 0000
+    Color: red:   1001
+           green: 1010
+           blue:  1100
+
+     Set first led red:
+     00001001
+
 */
 
 #define DATAPIN    4
@@ -13,6 +21,7 @@ void setup() {
   Serial.begin(9600);
   pinMode(DI, OUTPUT);
   pinMode(CI, OUTPUT);
+  start();
 
 }
 
