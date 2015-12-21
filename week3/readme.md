@@ -1,5 +1,9 @@
 #Circuit Sunday Session 3
 
+###Session Three: Sampling the world and persistence of vision
+
+Code Chat: [Gitter IM](https://gitter.im/fubarlabs/codechat?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+
 Building upon using breadboards, communicating to each other with serial we now will integrate more feature of the Arudino API. This means we'll use the breadboards, a selection of electronics to create common circuits. 
 
 Then we will review  digitalWrite(), digitalRead() and finally getting to analogWrite(), and analogRead()
