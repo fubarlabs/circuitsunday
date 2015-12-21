@@ -1,4 +1,4 @@
-# circuitsunday
+# Circuit Sunday
 Code for each of the Circuit Sunday Events
 
 Code Chat: [Gitter IM](https://gitter.im/fubarlabs/codechat?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
