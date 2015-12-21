@@ -16,11 +16,12 @@ Place boards into breadboard
 
 * Become familiar with putting boards into programming/bootloader mode
 
+##Sessions
 
-###[Session One: Kicking the Tires and Talking to Your Hardware](week1)
+* [Session One: Kicking the Tires and Talking to Your Hardware](week1)
 
-###[Session Two: Serial Communications and Arduino Text Adventure](week2)
+* [Session Two: Serial Communications and Arduino Text Adventure](week2)
 
-###[Session Three: Sampling the world and persistence of vision](week3)
+* [Session Three: Sampling the world and persistence of vision](week3)
 
-###[Session Four: Fast LED strips the Dotstar and apa102x](week4) 
+* [Session Four: Fast LED strips the Dotstar and apa102x](week4) 
