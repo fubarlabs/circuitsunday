@@ -7,9 +7,9 @@
 #define CLOCKPIN   29
 #define NUMPIXELS 30 // Number of LEDs in strip
 
+uint32_t stripcolors[NUMPIXELS];
 Adafruit_DotStar strip = Adafruit_DotStar(NUMPIXELS, DATAPIN, CLOCKPIN, DOTSTAR_BRG);
 
-int strip[NUMPIXELS];
 
 void setup() {
   strip.begin(); // Initialize pins for output
@@ -17,13 +17,13 @@ void setup() {
 
   //initialize strip array
   for (int ii = 0; ii < NUMPIXELS; ii++) {
-    strip[ii] = 0xFF0000; //initialize all to red
+    stripcolors[ii] = 0xFF0000; //initialize all to red
   }
 }
 
 void loop() {
   for (int ii = 0; ii <  NUMPIXELS; ii++) {  
-    strip.setPixelColor(ii, strip[ii]); 
+    strip.setPixelColor(ii, stripcolors[ii]); 
   }
   strip.show();                     // Refresh strip
   delay(20);
