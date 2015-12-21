@@ -1,6 +1,7 @@
-#Week 4
+#Circuit Sunday Session 4
 
 ##Fast LED strips the Dotstar and apa102x
+Code Chat: [Gitter IM](https://gitter.im/fubarlabs/codechat?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
 The goal for this group is to learn to use Arduino libraries. Configure common led strips. Then create custom animations for the holidays or incorporate into your own projects.
 
