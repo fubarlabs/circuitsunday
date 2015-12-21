@@ -1,5 +1,8 @@
 #Circuit Sunday Session 2
 ====
+###[Session Two: Serial Communications and Arduino Text Adventure](week2)
+
+Code Chat: [Gitter IM](https://gitter.im/fubarlabs/codechat?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
 #Requirements
 Software
