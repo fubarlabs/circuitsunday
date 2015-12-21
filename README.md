@@ -6,8 +6,8 @@ Code Chat: [Gitter IM](https://gitter.im/fubarlabs/codechat?utm_source=share-lin
 
 ###[Session One: Kicking the Tires and Talking to Your Hardware](week1)
 
-###Session Two: Serial Communications and Arduino Text Adventure
+###[Session Two: Serial Communications and Arduino Text Adventure](week2)
 
-###Session Three: Sampling the world and persistence of vision.
+###[Session Three: Sampling the world and persistence of vision](week3)
 
-###Session Four: Fast LED strips the Dotstar and apa102x 
+###[Session Four: Fast LED strips the Dotstar and apa102x](week4) 
