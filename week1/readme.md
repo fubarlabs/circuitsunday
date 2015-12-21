@@ -1,6 +1,9 @@
 #Circuit Sunday 1
 
-Circuit Sunday week 1
+##Session One: Kicking the Tires and Talking to Your Hardware
+
+Code Chat: [Gitter IM](https://gitter.im/fubarlabs/codechat?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+
 
  The goal of Circuit Sunday week 1 is  to become familiar with the Arduino environment and to become familiar with the Fubarino boards, http://fubarino.org,  these boards are Arduino compatible boards that were designed here at Fubar Labs and in conjunction with Brian Schmalz. They are part of the chipKIT project. The chipKIT project is an arduino-compatible environment that uses the pic32 chip from Microchip.
  
