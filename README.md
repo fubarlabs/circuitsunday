@@ -16,6 +16,9 @@ Place boards into breadboard
 
 * Become familiar with putting boards into programming/bootloader mode
 
+##Installation of chipKIT core
+![Installation](/images/1.6.7-core.gif)
+
 ##Sessions
 
 * [Session One: Kicking the Tires and Talking to Your Hardware](week1)
