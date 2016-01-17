@@ -14,7 +14,9 @@ We need to get things set up like the previous session. Here's all the info on t
 ##Wiring Diagrams
 
 * Fuabrino Mini
-![Fuabrino Mini LCD Wiring Diagram](/session6/)
+![Fuabrino Mini LCD Wiring Diagram](/session6/FubarinoMiniLCD_bb.png)
+![Fuabrino Mini Full Breadboard LCD Wiring Diagram](/session6/FubarinoMiniLCDFullSize_bb.png)
+
 
 * Fubarino SD
 ![Fuabrino SD LCD Wiring Diagram](/session6/)
