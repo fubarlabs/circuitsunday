@@ -24,10 +24,8 @@ The goal for this group is to learn to use Arduino libraries. Configure common l
 * Debug the strip
   * SoftSPI and Hardware SPI
   * Determine number of LEDS
-  
-  ###Custom Code
-  * Light leds in various patterns
-  * Control the colors
-  * Create animations
-  
-  
+
+###Custom Code
+* Light leds in various patterns
+* Control the colors
+* Create animations

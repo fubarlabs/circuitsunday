@@ -1,4 +1,4 @@
-#Session 4
+#Session 5
 
 ##More Fast LED strips the Dotstar and apa102x
 
@@ -19,14 +19,14 @@ We need to get things set up like the previous session. Here's all the info on t
 
 ##Concept ARRAYS
 
-A movie is a collectio of still images called frames. In order to animate the
-LED strips we need to create a frame of leds and their settings. Then we need to load the next frame of led states. We need to know how many items are in a frame. Like how many pixels are in a single frame. Pixels in a frame are a collection of red, green, and blue. The combination of brightness of of each color is mixed to show an image. 
+A movie is a collection of still images called frames. In order to animate the
+LED strips we need to create a frame of leds and their settings. Then we need to load the next frame of led states. We need to know how many items are in a frame. Like how many pixels are in a single frame. Pixels in a frame are a collection of red, green, and blue. The combination of brightness of of each color is mixed to show an image.
 
-Last time we used the apa102c led strips. We load the color values for each led in the strip. We used a for loop to change the colors of each. We used a manually method of building the frame via shiftOUT and then a library that allows us to just build the grame and refresh the iist.
+Last time we used the apa102c led strips. We load the color values for each led in the strip. We used a for loop to change the colors of each. We used a manually method of building the frame via shiftOUT and then a library that allows us to just build the game and refresh the list.
 
-TO create an animiation we'll create a frame using and array. Each entry in the array will correspond to a pixel. The array will the store the color of each pixel. Then to create the animation we'll refresh the led strip with colors stored in the array.
+TO create an animation we'll create a frame using and array. Each entry in the array will correspond to a pixel. The array will the store the color of each pixel. Then to create the animation we'll refresh the led strip with colors stored in the array.
 
-rray details:
+Array details:
 
 1. They can hold any data type
 2. They start at 0 and end at define integer
@@ -44,10 +44,8 @@ How do we declare an array?
 * Debug the strip
   * SoftSPI and Hardware SPI
   * Determine number of LEDS
-  
-  ###Custom Code
-  * Light leds in various patterns
-  * Control the colors
-  * Create animations
-  
-  
+
+###Custom Code
+* Light leds in various patterns
+* Control the colors
+* Create animations
