@@ -25,7 +25,7 @@ We need to get things set up like the previous session. Here's all the info on t
 ###Code Review
 * Arduino LCD library https://www.arduino.cc/en/Reference/LiquidCrystal
 * How to install the library
-* Program the Hellow World LCD sketch
+* Program the Hello World LCD sketch
 * Debug the wiring
 * Debug the code
 
@@ -35,3 +35,4 @@ We need to get things set up like the previous session. Here's all the info on t
 * Print information from the serial interface to the screen
 * Create custom characters
 * Create simple animation
+* Bonus: Add the texture adventure to use the display
