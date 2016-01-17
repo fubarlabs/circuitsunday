@@ -5,7 +5,7 @@ Code Chat: [Gitter IM](https://gitter.im/fubarlabs/codechat?utm_source=share-lin
 
 ##Requirements
 Software
-* Arduino 1.6.5: https://www.arduino.cc/en/Main/OldSoftwareReleases#previous
+* Arduino 1.6.7+: https://www.arduino.cc/en/Main/Software
 * chipkit-core: http://chipkit.net/wiki/index.php?title=ChipKIT_core
 
 ##Recommended Boards
@@ -27,4 +27,8 @@ Place boards into breadboard
 
 * [Session Three: Sampling the world and persistence of vision](week3)
 
-* [Session Four: Fast LED strips the Dotstar and apa102x](week4) 
+* [Session Four: Fast LED strips the Dotstar and apa102x](week4)
+
+* [Session Five: Fast LED strips the Dotstar and apa102x animations](session5)
+
+* [Session Six: LCD Displays](session6)
