@@ -4,9 +4,7 @@
 
 We'll be working with Dallas One Wire Temperature Sensor: Maxim MAX31820. Details on the sesnor are here: https://www.maximintegrated.com/en/products/analog/sensors-and-sensor-interface/MAX31820.html
 
-I'll have several available. We will solder the pins on to a header, place it in a breadboard, and then wire it up. We'll use the Arduino LCD library and adjust the red, green, blue background colors.
-
-Last part of the workshop is show the Temperature on the display is the RGB 16x2 display from Adafruit: https://www.adafruit.com/products/399
+Review of the OneWire protocol. What kinds of devices in addtiion to temperature sensors can be used. Then focus on the Dallas OneWire sensor.
 
 
 ##Data Sheet
@@ -24,12 +22,19 @@ Last part of the workshop is show the Temperature on the display is the RGB 16x2
 
 
 ###Code Review
-* Paul Stoffregen OneWire library https://github.com/PaulStoffregen/OneWire
-* How to install the library
+* OneWire library https://github.com/PaulStoffregen/OneWire
+* Dallas Temperature Control Library: http://milesburton.com/Main_Page?title=Dallas_Temperature_Control_Library
+* How to install the libraries
 * Program the Hello World  sketch
 * Debug the wiring
 * Debug the code
+* SerialExplorer for the temparuter sensors
+ * Find all the sensors in the chain
+ * Select a sensor and print it's temperaure
+ 
 
 ###Custom Code
 * Show temperature data on an LCD Display
 * Trigger events based on various temperatures
+* Possible MQTT data format for the output
+
