@@ -14,6 +14,7 @@ Review of the OneWire protocol. What kinds of devices in addtiion to temperature
 * Note: the temp sensors have correct orientation. But the diagram has the tmp36 sensor labels. Need to make/find/use a more generic package in Fritzing for it.
 
 * Fuabrino Mini
+* 
 ![Fuabrino Mini MAX31820 Wiring Diagram](/session7/FubarinoMiniOneWire_bb.png)
 
 * Fubarino SD
