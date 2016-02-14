@@ -13,10 +13,10 @@ Review of the OneWire protocol. What kinds of devices in addtiion to temperature
 ##Wiring Diagrams
 
 * Fuabrino Mini
-![Fuabrino Mini MAX31820 Wiring Diagram](/session7/)
+![Fuabrino Mini MAX31820 Wiring Diagram](/session7/FubarinoMiniOneWire_bb.png)
 
 * Fubarino SD
-![Fuabrino SD MAX31820 Wiring Diagram](/session7/)
+![Fuabrino SD MAX31820 Wiring Diagram](/session7/FubarinoSDOneWire_bb.png)
 
 ##Concept
 
