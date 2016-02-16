@@ -32,4 +32,4 @@ Place boards into breadboard
 * [Session Five: Fast LED strips the Dotstar and apa102x animations](session5)
 
 * [Session Six: LCD Displays](session6)
-* [Session Seven: Dallas OneWire Temperature Sesnors](session7)
+* [Session Seven: Dallas OneWire Temperature Sensors](session7)
