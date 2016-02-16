@@ -11,10 +11,10 @@ We'll be working with the 74HC595 Shift Register. Product details on the shift r
 ##Wiring Diagrams
 
 * Fuabrino Mini
-![Fuabrino Mini 74HC595 Shift Register Wiring Diagram](/session8/)
+![Fuabrino Mini 74HC595 Shift Register Wiring Diagram](/session8/FubarinoMinishiftRegister_bb.png)
 
 * Fubarino SD
-![Fuabrino SD 74HC595 Shift Register Wiring Diagram](/session8/)
+![Fuabrino SD 74HC595 Shift Register Wiring Diagram](/session8/FubarinoSDshiftRegister_bb.png)
 
 ##Concept
 
