@@ -11,12 +11,14 @@ Review of the OneWire protocol. What kinds of devices in addtiion to temperature
 [Dallas OneWire 3v Temperature Sensor](https://www.maximintegrated.com/en/products/analog/sensors-and-sensor-interface/MAX31820.html#popuppdf)
 
 ##Wiring Diagrams
+* Note: the temp sensors have correct orientation. But the diagram has the tmp36 sensor labels. Need to make/find/use a more generic package in Fritzing for it.
 
 * Fuabrino Mini
-![Fuabrino Mini MAX31820 Wiring Diagram](/session7/)
+* 
+![Fuabrino Mini MAX31820 Wiring Diagram](/session7/FubarinoMiniOneWire_bb.png)
 
 * Fubarino SD
-![Fuabrino SD MAX31820 Wiring Diagram](/session7/)
+![Fuabrino SD MAX31820 Wiring Diagram](/session7/FubarinoSDOneWire_bb.png)
 
 ##Concept
 
