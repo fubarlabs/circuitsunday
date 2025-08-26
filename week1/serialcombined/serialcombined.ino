@@ -1,3 +1,5 @@
+#define PIN_LED1 2
+#define PIN_BTN1 0
 
 int count = 0;
 int countb = 0;
