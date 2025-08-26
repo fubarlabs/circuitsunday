@@ -1,5 +1,5 @@
 //Blink
-#define PIN_LED1 1
+#define PIN_LED1 2
 
 void setup() {
   pinMode(PIN_LED1, OUTPUT);
