@@ -2,6 +2,7 @@
 // and read the on-board button. When you run the sketch,
 // The LED will blink slowly until you hold down the PRG
 // button. Then it will blink fast.
+#define PIN_LED1 2
 
 // Controls the LED blink speed, in ms
 int LedSpeed = 1000;
